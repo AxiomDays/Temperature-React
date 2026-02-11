@@ -1,0 +1,31 @@
+ .formbox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: solid black 1px;
+     border-radius: 5px;
+     height: 25dvh;
+     margin: 0dvw 2dvw;
+     padding-left: 0;
+ }
+
+ .input-val {
+     padding: 1dvw;
+     margin: 1dvh;
+     width: 100%;
+     font-size: 0.6cm;
+ }
+
+ .input-select {
+     padding: 1dvw;
+     margin: 1dvh;
+     width: 100%;
+     height: fit-content;
+     letter-spacing: 0.05em;
+     font-size: 0.5cm
+ }
+
+ .forminner select,
+ .input-val {
+     font-family: Arial, Helvetica, sans-serif
+ }

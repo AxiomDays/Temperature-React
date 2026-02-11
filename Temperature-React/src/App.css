@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Overcame;
+  src: url(src/assets/overcame-demo/OvercameDemoRegular.ttf);
+}
+
+.overcame {
+  font-family: Overcame, 'Times New Roman', Times, serif;
+}
