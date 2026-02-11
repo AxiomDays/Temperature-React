@@ -58,7 +58,7 @@ function CentralBox({ isAbout }) {
 				<div className="row justify-content-center">
 					{!isAbout ? (
 						<div className="mainbox col-10 col-md-10 col-lg-8 row">
-							<FormBox val={value} func={setValFunc} OptionFunc={setTemp} />
+							<FormBox val={value} func={setValFunc} OptionFunc={setTemp} isInput={true}/>
 
 							<button
 								type="button"
@@ -75,7 +75,7 @@ function CentralBox({ isAbout }) {
 								/>
 							</button>
 
-							<FormBox val={retValue} func={retValFunc} OptionFunc={retTemp} />
+							<FormBox val={retValue} func={retValFunc} OptionFunc={retTemp} isInput={false}/>
 						</div>
 					) : (
 						<div className="mainbox col-10 col-md-10 col-lg-8 row">
