@@ -4,8 +4,8 @@
     align-items: center;
     border: solid black 1px;
     border-radius: 5px;
-    min-height: clamp(50dvh, 60dvh, 70dvh);
-    margin: 15dvh;
+    min-height: clamp(30rem, 50dvh, 70rem);
+    margin: clamp(10dvh, 10dvw, 15dvh);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
 }
 
